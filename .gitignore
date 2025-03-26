@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# database
+*.db
+
+# checkpoint
+.ipynb_checkpoints/
+
 # Distribution / packaging
 .Python
 build/
@@ -127,3 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+im.db
