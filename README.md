@@ -36,11 +36,11 @@ The dataset includes movie details such as worldwide gross revenue, production b
 ## Folder Structure
 ```
 📂 Phase-2-Project
- ├── 📜 phase-2-project-Final.ipynb  # Jupyter Notebook with full analysis
- ├── 📜 README.md                     # Project Summary
- ├── 📂 data/                          # Raw and processed datasets
- ├── 📂 visuals/                       # Graphs and plots generated
- └── 📂 reports/                       # Final presentation and findings
+ ├── .gitignore
+ ├── phase-2-project-Final.ipynb  # Jupyter Notebook with full analysis
+ ├── README.md                     # Project Summary
+ ├── data/                          # Raw and processed datasets
+ └── presentation.pdf/                       # Non-techincal presentation
 ```
 
 ## Conclusion
