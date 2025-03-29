@@ -14,7 +14,18 @@ The company sees major corporations creating original video content and wants to
 - Are factors like runtime, release year, and user ratings significant predictors of box office success?
 
 ## Data Understanding and Analysis
-The dataset includes movie details such as worldwide gross revenue, production budgets, genres, ratings, and release years. We conducted exploratory data analysis (EDA) to uncover patterns and used statistical methods to validate key insights.
+The dataset includes movie details such as worldwide gross revenue, production budgets, genres, ratings, and release years. We conducted exploratory data analysis (EDA) to uncover patterns and used statistical methods to validate key insights.  
+### Key Columns Used For Analysis:
+- Movie - Movie title  
+- Start_year - Year of initial screening 
+- Runtime_minutes - Duration of the film  
+- Genres - Genre of the film  
+- Averagerating - Average popularity rating of a film  
+- Numvotes - Number of voters of a particular film  
+- Release_date - Official date of release to the public  
+- Production_budget - Cost of making the movie  
+- Domestic_gross - Revenue brought in from the domestic market  
+- Worldwide_gross - Revenue brought in from the global market  
 
 ## Key Insights
 - **Production Budget vs. Revenue:** High-budget movies tend to generate significantly higher revenues.
