@@ -55,23 +55,24 @@ We conducted exploratory data analysis (EDA) to uncover patterns and used statis
 - **Libraries:** pandas, seaborn, matplotlib, numpy, scipy, statsmodels, sqlite3
 
 ## Business Recommendations
-🎯 Smart Budgeting for Maximum ROI   
-🎥 Diversify Investments  
-🎬 Optimize Movie Runtime for Maximum Profit  
-🎭 Genre Optimization & Market Trends  
-🌟 Beyond Budget: Marketing & Star Power Matter  
- 🕰️ Timing is Everything  
-🔬 Future Research & Model Refinement  
+- **💰 Smart Budgeting:** Allocate production budgets strategically to maximize revenue while maintaining cost efficiency.  
+- **🎬 Diversify Investments:** Balance high-budget blockbusters with mid-budget films for optimized risk and returns.  
+- **⏳ Optimize Runtime:** Aim for films between 90–150 minutes for maximum profitability.  
+- **🎭 Genre Focus:** Invest in profitable genres like Action, Adventure, and Comedy while exploring high-potential Documentary films.  
+- **🌟 Marketing & Star Power:** A strong marketing strategy and A-list actors can significantly boost a film’s success.  
+- **🕰️ Strategic Release Timing:** Leverage seasonal trends and competitive analysis to maximize box office earnings.  
+- **📊 Model Refinement:** Enhance predictive models by incorporating marketing spend, cast reputation, and audience demographics.   
 
 ## Folder Structure
 ```
 📂 Phase-2-Project
- ├── data/            # Raw and processed dataset
- ├── images             # Images in README
- ├── .gitignore
- ├── phase-2-project-Final.ipynb  # Jupyter Notebook with full analysis
- └── presentation.pdf/                       # Non-techincal presentation  
- ├── README.md                     # Project Summary
+ ├── data/                      # Raw and processed dataset  
+ ├── images/                    # Images used in README  
+ ├── .gitignore  
+ ├── phase-2-project-Final.ipynb  # Jupyter Notebook with full analysis  
+ ├── presentation.pdf            # Non-technical presentation  
+ ├── README.md                   # Project Summary  
+ 
 ```
 
 ## Conclusion
