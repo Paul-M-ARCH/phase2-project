@@ -7,35 +7,47 @@ This project explores factors that contribute to a movie's box office success. U
 ## Business Understanding
 The company sees major corporations creating original video content and wants to join the industry. However, they lack expertise in movie production. This project explores box office trends to provide actionable insights for launching a successful film studio. Key questions include:
 
-- What genres perform best in terms of worldwide gross revenue?
-
-- How does production budget impact revenue?
-
-- Are factors like runtime, release year, and user ratings significant predictors of box office success?
+✅ Which genres generate the highest revenue?  
+✅ How do production budgets impact profitability?  
+✅ What trends exist in audience preferences over time?  
+✅ How does critical reception correlate with box office performance? 
 
 ## Data Understanding and Analysis
-The dataset includes movie details such as worldwide gross revenue, production budgets, genres, ratings, and release years. We conducted exploratory data analysis (EDA) to uncover patterns and used statistical methods to validate key insights.  
+The dataset includes movie details such as worldwide gross revenue, production budgets, genres, ratings, and release years sourced from IMDB and The Numbers.  
+We conducted exploratory data analysis (EDA) to uncover patterns and used statistical methods to validate key insights.  
 ### Key Columns Used For Analysis:
-- Movie - Movie title  
-- Start_year - Year of initial screening 
-- Runtime_minutes - Duration of the film  
-- Genres - Genre of the film  
-- Averagerating - Average popularity rating of a film  
-- Numvotes - Number of voters of a particular film  
-- Release_date - Official date of release to the public  
-- Production_budget - Cost of making the movie  
-- Domestic_gross - Revenue brought in from the domestic market  
-- Worldwide_gross - Revenue brought in from the global market  
+- **Movie** - Movie title  
+- **Start_year** - Year of initial screening 
+- **Runtime_minutes** - Duration of the film  
+- **Genres** - Genre of the film  
+- **Averagerating** - Average popularity rating of a film  
+- **Numvotes** - Number of voters of a particular film  
+- **Release_date** - Official date of release to the public  
+- **Production_budget** - Cost of making the movie  
+- **Domestic_gross** - Revenue brought in from the domestic market  
+- **Worldwide_gross** - Revenue brought in from the global market  
 
 ## Key Insights
-- **Production Budget vs. Revenue:** High-budget movies tend to generate significantly higher revenues.
-- **Profitable Genres:** Drama leads in total profit, while genre combinations like Adventure, Animation, and Comedy show strong financial performance.
-- **Audience Trends:** Documentaries maintain stable high ratings, while Action and Sci-Fi ratings have gradually declined.
+**1. Budget Drives Box Office Success** 
+- Higher production budgets lead to significantly higher revenues.  
+- Regression analysis shows budget is the strongest predictor of box office earnings, explaining 51-56% of revenue variance.  
+**2. Profitable Genre Trends**  
+- Drama leads in total profit, but Action, Adventure, and Comedy combinations have the highest mean and median profitability.  
+- Documentaries are a hidden gem with high average profitability despite fewer releases.  
+**3. Runtime & Profitability**  
+- Most profitable movies tend to have runtimes between 90–150 minutes.  
+- While runtime alone doesn’t predict revenue, optimizing it alongside budget and marketing efforts can improve success.  
+**4. Audience Trends (2011–2018)**  
+- Stable ratings: Documentaries consistently received high ratings.  
+- Declining interest: Action, Adventure, and Sci-Fi genres saw a drop in audience ratings over time.  
+- Consistent performers: Drama, Romance, and Comedy maintained steady audience engagement.  
+**5. Box Office Success is More Than Just Budget** 
+- Other crucial factors like marketing spend, star power, distribution strategy, and release timing play a key role in a movie’s financial performance.  
 
 ## Key Visuals
-![Alt text](genre_trends.png)
-![Alt text](profitable_genres.png)
-![Alt text](runtime<>profit.png)
+![Alt text](images/genre_trends.png)
+![Alt text](images/profitable_genres.png)
+![Alt text](images/runtime<>profit.png)
 
 
 ## Tools Used
@@ -43,18 +55,23 @@ The dataset includes movie details such as worldwide gross revenue, production b
 - **Libraries:** pandas, seaborn, matplotlib, numpy, scipy, statsmodels, sqlite3
 
 ## Business Recommendations
-1. **Invest in High-Budget Films**: Larger budgets generally yield higher revenues, but cost-efficiency remains key.
-2. **Focus on Profitable Genres**: Prioritize genres and combinations that consistently perform well.
-3. **Consider Audience Trends**: Leverage genres with stable audience satisfaction for long-term success.
+🎯 Smart Budgeting for Maximum ROI   
+🎥 Diversify Investments  
+🎬 Optimize Movie Runtime for Maximum Profit  
+🎭 Genre Optimization & Market Trends  
+🌟 Beyond Budget: Marketing & Star Power Matter  
+ 🕰️ Timing is Everything  
+🔬 Future Research & Model Refinement  
 
 ## Folder Structure
 ```
 📂 Phase-2-Project
+ ├── data/            # Raw and processed dataset
+ ├── images             # Images in README
  ├── .gitignore
  ├── phase-2-project-Final.ipynb  # Jupyter Notebook with full analysis
+ └── presentation.pdf/                       # Non-techincal presentation  
  ├── README.md                     # Project Summary
- ├── data/                          # Raw and processed datasets
- └── presentation.pdf/                       # Non-techincal presentation
 ```
 
 ## Conclusion
