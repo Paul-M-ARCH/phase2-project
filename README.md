@@ -47,7 +47,7 @@ We conducted exploratory data analysis (EDA) to uncover patterns and used statis
 ## Key Visuals
 ![Alt text](images/genre_trends.png)
 ![Alt text](images/profitable_genres.png)
-![Alt text](images/runtime<>profit.png)
+![Alt text](images/runtime_profit.png)
 
 
 ## Tools Used
