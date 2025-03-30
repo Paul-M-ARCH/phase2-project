@@ -33,7 +33,10 @@ The dataset includes movie details such as worldwide gross revenue, production b
 - **Audience Trends:** Documentaries maintain stable high ratings, while Action and Sci-Fi ratings have gradually declined.
 
 ## Key Visuals
-📊 *(Add 2-3 key visualizations from your analysis to highlight trends.)*
+![Alt text](genre_trends.png)
+![Alt text](profitable_genres.png)
+![Alt text](runtime<>profit.png)
+
 
 ## Tools Used
 - **Programming Language**: Python
