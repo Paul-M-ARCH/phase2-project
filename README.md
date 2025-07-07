@@ -1,5 +1,5 @@
 
-# Phase 2 Project: Analyzing Movie Trends - What Films Perform Best at the Box Office?
+# Analyzing Movie Trends - What Films Perform Best at the Box Office?
 
 ## Overview
 This project explores factors that contribute to a movie's box office success. Using data analysis and statistical models, we identify key trends and relationships between production budgets, genres, and audience reception.
